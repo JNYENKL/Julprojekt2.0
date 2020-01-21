@@ -1,0 +1,9 @@
+include header.pug
+div.itemsDiv
+  h2 Din julklapp är...
+  h1= item.name 
+  img.image(src="" + item.image )
+  a(href=item.link) Länk
+  p=item.descrip
+  
+include footer.pug

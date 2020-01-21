@@ -1,0 +1,15 @@
+Database specifications used in app.js:
+
+host: 'localhost',
+user: 'root',
+password: '',
+database: 'julklappar'
+
+
+CREATE TABLE julklappar (
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT=1 ,
+    name varchar(255),
+    image varchar(255),
+    link varchar(255),
+    desc varchar(255)
+);

@@ -1,0 +1,14 @@
+include header.pug
+          
+if itemList.length > 0
+    for items in itemList
+      div.itemsDiv
+        h1=items.name
+        img.images(src="" + items.image_name, alt='image_name')
+        a.links(href=items.link) Länk
+        p.description= items.descrip
+else
+  div.itemsDiv
+    h1 Looks Empty Here!
+    
+include footer.pug

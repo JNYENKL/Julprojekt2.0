@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title="Hitta din julklapp"
+        meta(charset="utf-8")
+        style
+          include style.css
+
+    body 
+    
+              nav.navBar
+                h1.logo Julprojekt 2019
+                a(href='/gift' method="GET") Hitta din julklapp!
+                a(href='/post' method="GET") Lägg till julklappar
+                a(href='/' method="GET") Hem
+                br
+                p.msg=errorMessage

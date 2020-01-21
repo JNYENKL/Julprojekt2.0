@@ -1,0 +1,26 @@
+include header.pug
+form.inputForm(action='/postGift', method='post')
+  p
+  | Namn:
+  br
+  input(type='text', name='name', value='')
+  br
+  | Image Address:
+  br
+  input(type='url', name='image', value='')
+  br
+  | Länk:
+  br
+  input(type='url', name='link', value='')
+  br
+  | Beskrivning:
+  br
+  input.descInpt(type='text', name='descrip', value='')
+  br
+  | Password:
+  br
+  input(type='text', name='password', value='')
+  br
+  input.btnInpt(type='submit', value='Submit')
+include footer.pug
+  

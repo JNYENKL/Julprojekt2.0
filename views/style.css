@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(212,255,196);
+  background: linear-gradient(28deg, rgba(212,255,196,1) 0%, rgba(150,0,27,1) 100%);
+  font-family: "Courier New", Courier, monospace;
+  height: 200vh;
+}
+
+/*
+table, th, td {
+   border: 1px solid black;
+}
+*/
+
+/*Errormessage to display to the right in navbar*/
+.msg {
+  margin-left: 90vw;
+  transform: translateX(-50%);
+}
+
+/*Footer style*/
+.foot {
+  width: 100vw;
+  background-color: white;
+  color: #b0352c;
+  padding: 10px;
+  margin-top: 10px;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+}
+
+
+.descInpt{
+  height: 100px;
+  overflow: scroll;
+}
+
+input {
+  width: 300px;
+}
+
+.itemsDiv {
+  background-color: white;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 100px;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+  color: black;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 20px Black;
+
+}
+
+/*Links of items*/
+.itemsDiv a:link {
+  color: green;
+}
+
+.itemsDiv a:visited {
+  color: green;
+}
+
+.itemsDiv a:hover{
+  color: lightgreen;
+}
+
+
+
+/*POST form style*/
+.inputForm {
+  border: 4px dotted white;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+  width: 25vw;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 40vh;
+}
+
+/*Submit button*/
+.btnInpt{
+  padding: 5px;
+  background-color: lightgreen;
+  color: black;
+  margin-top: 10px;
+  width: 25%
+}
+
+
+.btnInpt:hover {
+  background-color: #deffe7;
+  cursor: pointer;
+}
+/*Navigation bar*/
+.navBar{
+  width: 100vw;
+  background-color: #b0352c;
+  color: white;
+  border-bottom: 4px dotted white;
+  box-shadow: 0px 5px 15px Black;
+}
+
+.logo {
+  margin-left: 60vw;
+  transform: translateX(-50%);
+  font-family: Snell Roundhand, cursive;
+  font-size: 300%;
+}
+
+/*Header links*/
+a {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
